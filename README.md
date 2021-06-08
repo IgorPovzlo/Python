@@ -1,1 +1,1 @@
-Povzlo Ihor
+Povzlo Igor
