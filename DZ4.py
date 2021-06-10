@@ -5,6 +5,5 @@ a = a//10
 c = a%10
 a = a//10
 d = a%10
-#x = b, c, d,
-x = int(str(b)+str(c)+str(d))
+x = b*100+c*10+d
 print("Обратное  число:", x)
