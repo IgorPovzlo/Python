@@ -1,8 +1,8 @@
 print("Домашнее задание №11. Поиск символа в строке")
-s = input("Введите строку:")
+str1 = input("Введите строку:")
 f = input("Введите символ который нужно найти:")
-sub = 0
-while s.find(f, sub) > -1 :
-    sub == s.find(f, sub)+1
-    print(s.find(f))
+s = 0
+while str1.find(f, s) > -1:
+    print(str1.find(f,s))
+    s = str1.find(f,s) + 1
 
