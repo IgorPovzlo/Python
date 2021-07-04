@@ -7,7 +7,7 @@ cols = rows
 for i in range(rows):
     for j in range(cols):
         if rows/2 >= i :
-            if j == (rows//2-i) or j == (rows//2+i) or i == rows//2 :
+            if j == (rows//2-i) or j == (rows//2+i) or i == rows//2 or  j+i >= rows//2 and j-i<= rows//2  :
                 print("+ ", end="")
             else:
                 print("  ", end="")
