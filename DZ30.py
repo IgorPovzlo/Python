@@ -8,8 +8,8 @@ def converter(number, number_system):
         b = str(a[number % number_system]) + b
         number = number // number_system
 
-    print(b)
+    return b
 
-x = converter(int(input('Введите число в десятичной системе счисления:')),
-               int(input('Введите систему счисления в которою необходимо перевести(2-36) :')))
+x = print(converter(int(input('Введите число в десятичной системе счисления:')),
+               int(input('Введите систему счисления в которою необходимо перевести(2-36) :'))))
 
